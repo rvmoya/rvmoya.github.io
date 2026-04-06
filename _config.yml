@@ -30,7 +30,7 @@ author:
   location         : "Barcelona, Spain"
   employer         : "Meliá Hotels"
   uri              : # URL
-  email            : "ramesesmoya@gmail.com"
+  email            : "ramesesmoya@gmail.com" <p>ramesesmoya@gmail.com<p>
 
   # Academic websites
   academia         : # URL
@@ -118,7 +118,7 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : "md5"ramesesmoya@gmail.com
   generatedFields:
     date:
       type               : "date"
