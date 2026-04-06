@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-EN"
 site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Rameses Moya|CV"
+title                    : "Rameses Moya | CV"
 title_separator          : "-"
 name                     : &name "Rameses Moya"
 description              : &description "Rameses Moya's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
