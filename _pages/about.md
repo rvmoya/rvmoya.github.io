@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-While I do love the very formal approach and culture on corporate level scenarios I try no to dwelve into such a thing to much. I would still love a wisp of fun and creative dialogues and discussion as so not to get stuck on corporate mumbo-jumbos. 
+While I do love the very formal approach and culture on corporate level scenarios I try not to dwelve into such a thing to much. I would still love a wisp of fun and creative dialogues and discussion as so not to get stuck on corporate mumbo-jumbos. 
 
 So to begin, this is my portfolio and it contains all information with regards to my academic and career growth and I also throw in some tiny tid bit info about me from time to time.
 
