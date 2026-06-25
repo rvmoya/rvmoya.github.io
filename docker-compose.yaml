@@ -6,4 +6,13 @@ services:
     ports: [ 4000:4000 ]
     user: 1000:1000
     environment: [ JEKYLL_ENV=docker ]
+<<<<<<< HEAD
     command: jekyll serve -H 0.0.0.0 -w --config _config.yml,_config_docker.yml
+=======
+    command: jekyll serve -H 0.0.0.0 -w --force-polling --config _config.yml,_config_docker.yml
+    develop:
+      watch:
+        - path: .
+          action: sync
+          target: /usr/src/app
+>>>>>>> 57028cf (Initial commit with git)
