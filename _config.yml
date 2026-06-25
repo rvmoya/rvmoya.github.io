@@ -28,19 +28,11 @@ repository               : "rvmoya/rvmoya.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-<<<<<<< HEAD
-  name             : "Ram"
-  pronouns         : # example: "she/her"  
-  bio              : "Programming, CAD, Network Administration, etc. ample experience on various technical fields; Currently a kitchen staff at a 5 star hotel."
-  location         : "Barcelona, Spain"
-  employer         : "Meliá Hotels"
-=======
   name             : "Rameses Moya"
   pronouns         : # example: "she/her"  
   bio              : "Programming, CAD, Network Administration, etc. ample experience on various technical fields; Specializes in 2D and 3D Vision inspection systems, Machine Learning, and Computer Vision. Currently working on the development of a 3D vision system for the automotive industry."
   location         : "Barcelona, Spain"
   employer         : "ISVision Spain Technologies SL"
->>>>>>> 57028cf (Initial commit with git)
   uri              : # URL
   email            : "ramesesmoya@gmail.com"
   # Academic websites
