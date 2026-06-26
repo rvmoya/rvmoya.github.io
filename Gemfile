@@ -11,7 +11,4 @@ end
 
 gem 'github-pages'
 gem 'connection_pool', '2.5.0'
-<<<<<<< HEAD
-=======
 gem 'wdm', '~> 0.2.0', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
->>>>>>> 57028cf (Initial commit with git)
