@@ -11,26 +11,37 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Computer Engineering, De La Salle University, 2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **June 2026 - Present: Field Application Engineer**
+  * **ISVision Spain Technologies S.L.**
+    * **Duties**
+      * Programming PLC and 2D/3D Vision software on manufacturing factory line robot for automotive industry parts.
+      * Documents and create user manual guide for proprietery users.
+      * Demonstrates and trains clients on proper machine usage and protocol.   
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **August 2025 - June 2026: Ayudante de Cocina**
+  * **Melia Hotels International**
+    * **Duties**
+      *  Prepares food ingredients daily, continuously keeps overall kitchen workplace clean. 
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* **March 2023 - June 2025: Production Engineer**
+  * **Japan Aviation Electronics (Philippines)**
+    * **Duties**
+      * Daily maintenance on factory standard equipment and machine to lessen downtime and 
+       manufacturing defects such as but not limited to sensor calibrations and machine 
+       tolerance tuning.
+      * Provide documentation and training manuals for operators and technicians on proper 
+       machine operation. 
+      * Created 3D designs of over 300+ of machine parts and equipment through use of 
+       2D/3D design software such as AutoCAD and using 3D printers to produce machine 
+       and robot parts that would improve overall productivity.  
+      * Improved and re-programmed 40+ various PLC (Keyence) programs and HMI (Delta 
+       DOPSoft) of machines to lessen downtime and improve user interface. 
+      * Created multitudes of CV-X Keyence Vision System detection tools to detect defects 
+       on factory line. 
   
 Skills
 ======
