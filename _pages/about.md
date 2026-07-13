@@ -1,24 +1,67 @@
 ---
 permalink: /
-title: "If you are currently here you are probably a recruiter or someone curious and you found this portfolio!"
+title: "Field Application Engineer | Industrial Automation & Machine Vision"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
+# Rameses Moya
 
+## Field Application Engineer
 
-To switch to spanish click [here!](/spanishver/)
+### Industrial Automation • Machine Vision • PLC Programming • Manufacturing Systems
 
-While I do love the very formal approach and culture on corporate level scenarios I try not to dwelve into such a thing to much. I would still love a wisp of fun and creative dialogues and discussion as so not to get stuck on corporate mumbo-jumbos. 
+Designing, commissioning and supporting industrial automation solutions across Europe.
 
-So to begin, this is my portfolio and it contains all information with regards to my academic and career growth and I will also throw in some tiny tid-bit info about me from time to time.
+---
 
+Welcome to my engineering portfolio.
 
+I am a Field Application Engineer based in Barcelona, Spain, specializing in industrial automation, machine vision, PLC programming and manufacturing systems.
 
+My work focuses on commissioning industrial equipment, integrating vision-inspection systems, troubleshooting production machinery, providing customer training and supporting manufacturing projects from installation through production.
 
-This page was made using the following resources
-======
--[Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+Whether working on-site with customers or collaborating with engineering teams, my goal is always the same:
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+> Build reliable automation solutions that improve productivity, quality and manufacturing efficiency.
+
+---
+
+## Areas of Expertise
+
+* Industrial Automation
+* Machine Vision
+* PLC Programming
+* Manufacturing Systems
+* Commissioning
+* Technical Support
+* Customer Training
+* Engineering Documentation
+
+---
+
+## Professional Experience
+
+My engineering background combines manufacturing, automation and machine vision across both the Philippines and Spain.
+
+Some of the projects I have worked on include:
+
+* Automated Parts Feeding Systems
+* Vision Inspection Integration
+* Manufacturing Process Automation
+* PLC Programming
+* Technical Documentation Systems
+* Python Automation Projects
+
+More detailed case studies can be found in the **Projects** section of this website.
+
+---
+
+## About Me
+
+Originally from the Philippines, I relocated to Barcelona to continue developing my engineering career in Europe.
+
+I enjoy solving practical engineering problems, continuously learning new technologies and working with multidisciplinary engineering teams.
+
+Outside engineering, I continue improving my Spanish and developing personal projects involving automation, software development and technical documentation.
