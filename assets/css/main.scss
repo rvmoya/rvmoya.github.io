@@ -41,3 +41,33 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* Homepage and sidebar layout adjustments */
+
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    width: 210px;
+  }
+
+  .sidebar + .archive,
+  .sidebar + .page {
+    width: calc(100% - 240px);
+    padding-left: 1.5rem;
+  }
+
+  .author__avatar {
+    width: 170px;
+  }
+
+  .author__avatar img {
+    max-width: 170px;
+  }
+
+  .author__bio {
+    font-size: 0.88rem;
+    line-height: 1.45;
+  }
+
+  .author__urls {
+    font-size: 0.88rem;
+  }
+}

@@ -1,12 +1,11 @@
 ---
 permalink: /
-title: "Field Application Engineer | Industrial Automation & Machine Vision"
+title: "Rameses Moya"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
-# Rameses Moya
 
 ## Field Application Engineer
 
