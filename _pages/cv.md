@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Versión en español](/es/cv/){: .btn .btn--primary}
+
 # Rameses Moya
 
 **Field Application Engineer**
@@ -175,4 +177,4 @@ I have worked in engineering and technical roles across the Philippines and Spai
 - Python automation projects
 
 [View Engineering Projects](/portfolio/){: .btn .btn--primary}
-[Versión en español](/spanishver/){: .btn}
+[Versión en español](/es/cv/){: .btn}
