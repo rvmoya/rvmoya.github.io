@@ -25,11 +25,11 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Rameses Moya"
-  pronouns         : # example: "she/her"  
-  bio              : "Programming, CAD, Network Administration, etc. ample experience on various technical fields; Specializes in 2D and 3D Vision inspection systems, Machine Learning, and Computer Vision. Currently working on the development of a 3D vision system for the automotive industry."
+  pronouns         :
+  bio              : "Field Application Engineer<br>Industrial Automation<br>Machine Vision<br>PLC Programming<br>Manufacturing Systems<br>2D/3D Design"
   location         : "Barcelona, Spain"
-  employer         : "ISVision Spain Technologies SL"
-  uri              : # URL
+  employer         : "ISVision Spain Technologies S.L."
+  uri              :
   email            : "ramesesmoya@gmail.com"
   # Academic websites
   academia         : # URL
@@ -65,7 +65,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "rameses-moya-4169281aa""
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
