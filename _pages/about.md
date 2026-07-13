@@ -10,58 +10,57 @@ redirect_from:
 
 ## Field Application Engineer
 
-### Industrial Automation • Machine Vision • PLC Programming • Manufacturing Systems
+**Industrial Automation · Machine Vision · PLC Programming · Manufacturing Systems**
 
-Designing, commissioning and supporting industrial automation solutions across Europe.
+Based in Barcelona, Spain.
 
----
+I design, commission and support industrial automation solutions, with experience in machine vision, manufacturing equipment, technical troubleshooting and customer training.
 
-Welcome to my engineering portfolio.
-
-I am a Field Application Engineer based in Barcelona, Spain, specializing in industrial automation, machine vision, PLC programming and manufacturing systems.
-
-My work focuses on commissioning industrial equipment, integrating vision-inspection systems, troubleshooting production machinery, providing customer training and supporting manufacturing projects from installation through production.
-
-Whether working on-site with customers or collaborating with engineering teams, my goal is always the same:
-
-> Build reliable automation solutions that improve productivity, quality and manufacturing efficiency.
+[View Projects](/portfolio/){: .btn .btn--primary}
+[View CV](/cv/){: .btn}
+[Versión en español](/spanishver/){: .btn}
 
 ---
 
-## Areas of Expertise
+## Engineering Profile
+
+My professional background combines hands-on manufacturing experience with industrial automation, machine vision and equipment commissioning.
+
+I have worked on automated parts-feeding systems, vision-inspection integration, production-process improvements and technical support for industrial equipment.
+
+---
+
+## Core Areas
 
 * Industrial Automation
 * Machine Vision
 * PLC Programming
+* Equipment Commissioning
 * Manufacturing Systems
-* Commissioning
-* Technical Support
-* Customer Training
-* Engineering Documentation
+* Technical Training
 
 ---
 
-## Professional Experience
+## Selected Work
 
-My engineering background combines manufacturing, automation and machine vision across both the Philippines and Spain.
+### Automated Parts-Feeding Systems
 
-Some of the projects I have worked on include:
+Led the development and implementation of automated equipment integrated with vision-inspection systems.
 
-* Automated Parts Feeding Systems
-* Vision Inspection Integration
-* Manufacturing Process Automation
-* PLC Programming
-* Technical Documentation Systems
-* Python Automation Projects
+### Vision Inspection Integration
 
-More detailed case studies can be found in the **Projects** section of this website.
+Supported the integration of vision systems into manufacturing machinery to improve inspection efficiency and production quality.
+
+### Manufacturing Process Improvement
+
+Developed automation improvements that reduced manual work and increased production efficiency.
+
+[Explore All Projects](/portfolio/){: .btn .btn--primary}
 
 ---
 
-## About Me
+## Contact
 
-Originally from the Philippines, I relocated to Barcelona to continue developing my engineering career in Europe.
+Based in **Barcelona, Spain**.
 
-I enjoy solving practical engineering problems, continuously learning new technologies and working with multidisciplinary engineering teams.
-
-Outside engineering, I continue improving my Spanish and developing personal projects involving automation, software development and technical documentation.
+For professional enquiries, use the email, LinkedIn or GitHub links in my profile.
