@@ -4,14 +4,6 @@ title: "Currículum"
 permalink: /es/cv/
 author_profile: true
 ---
----
-layout: archive
-title: "Currículum"
-permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
----
 
 {% include base_path %}
 
