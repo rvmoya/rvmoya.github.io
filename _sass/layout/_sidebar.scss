@@ -25,13 +25,12 @@
   }
 
   @include breakpoint($large) {
+    width: 205px;
+    max-width: 205px;
     float: left;
-    width: 160px;
-    max-width: 160px;
-    margin-right: 30px;
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
-            transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
 
     &:hover {
       opacity: 1;
@@ -157,7 +156,7 @@
   }
 
   img {
-    max-width: 145px;
+    max-width: 150px;
     border-radius: 50%;
 
     @include breakpoint($large) {
@@ -307,7 +306,8 @@
   }
 
   li {
-    white-space: nowrap;
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
 
   a {

@@ -5,21 +5,21 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
+
+  width: calc(100% - 3rem);
+  max-width: 1500px;
+  margin: 2em auto 0;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
   animation: intro 0.3s both;
   animation-delay: 0.35s;
-
-  @include breakpoint($x-large) {
-    max-width: $x-large;
-  }
 }
 
 .page {
   @include breakpoint($large) {
     float: right;
-    width: calc(100% - 190px);
+    width: calc(100% - 245px);
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
