@@ -42,36 +42,48 @@
     "vendor/font-awesome/brands"
 ;
 /* =========================================================
-   Desktop layout adjustment
+   Desktop two-column layout
    ========================================================= */
 
 @media screen and (min-width: 1024px) {
-  #main .sidebar {
-    width: 14%;
-    max-width: 180px;
+  #main {
+    display: grid;
+    grid-template-columns: 180px minmax(0, 1fr);
+    column-gap: 3rem;
+    align-items: start;
+  }
+
+  #main > .sidebar {
+    position: sticky;
+    top: 5rem;
+    width: 180px !important;
+    max-width: 180px !important;
+    height: auto;
+    float: none !important;
+    padding-top: 0;
     padding-right: 0;
+    overflow: visible;
   }
 
-  #main .page {
-    float: right;
-    width: 82%;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 2%;
-    padding-right: 0;
+  #main > .page {
+    width: 100% !important;
+    max-width: none;
+    float: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
-  #main .author__avatar {
-    width: 145px;
+  .author__avatar {
+    width: 150px;
   }
 
-  #main .author__avatar img {
-    width: 145px;
-    max-width: 145px;
+  .author__avatar img {
+    width: 150px;
+    max-width: 150px;
   }
 
-  #main .author__bio,
-  #main .author__urls {
+  .author__bio,
+  .author__urls {
     font-size: 0.85rem;
     line-height: 1.45;
   }
