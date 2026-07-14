@@ -79,26 +79,98 @@ a:focus {
    --------------------------------------------------------- */
 
 .masthead {
-  background: var(--rm-bg);
+  width: 100%;
+  background: #ffffff;
   border-bottom: 1px solid var(--rm-border);
+  box-shadow: none;
+}
+
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 3rem);
+  max-width: 1500px;
+  min-height: 68px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
 .greedy-nav {
-  background: var(--rm-bg);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 68px;
+  background: transparent;
 }
 
-.greedy-nav a {
+.greedy-nav .site-title {
+  flex: 0 0 auto;
+  margin-right: 2.75rem;
   color: var(--rm-text);
-  font-weight: 500;
+  font-size: 1.05rem;
+  font-weight: 700;
+  white-space: nowrap;
 }
 
-.greedy-nav a:hover,
-.greedy-nav .visible-links a:hover {
+.greedy-nav .visible-links {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin: 0;
+}
+
+.greedy-nav .visible-links li {
+  margin: 0;
+}
+
+.greedy-nav .visible-links a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 68px;
+  padding: 0 1rem;
+  color: var(--rm-text);
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.greedy-nav .visible-links a:hover,
+.greedy-nav .visible-links a:focus {
   color: var(--rm-accent);
+  background: transparent;
 }
 
 .greedy-nav .visible-links a::before {
+  right: 1rem;
+  bottom: 0;
+  left: 1rem;
+  height: 2px;
   background: var(--rm-accent);
+}
+
+/* Keep utility buttons, such as the theme toggle, on the far right */
+
+@media screen and (min-width: 768px) {
+  .greedy-nav > button:last-of-type {
+    margin-left: auto;
+  }
+}
+
+/* Remove theme-generated backgrounds from navigation controls */
+
+.greedy-nav button {
+  color: var(--rm-text);
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.greedy-nav button:hover,
+.greedy-nav button:focus {
+  color: var(--rm-accent);
+  background: transparent;
 }
 
 /* ---------------------------------------------------------
