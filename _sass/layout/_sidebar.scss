@@ -25,7 +25,10 @@
   }
 
   @include breakpoint($large) {
-    @include span(2 of 12);
+    float: left;
+    width: 160px;
+    max-width: 160px;
+    margin-right: 30px;
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -154,7 +157,7 @@
   }
 
   img {
-    max-width: 175px;
+    max-width: 145px;
     border-radius: 50%;
 
     @include breakpoint($large) {
