@@ -5,7 +5,7 @@
  * This file controls what is imported from /_sass
  *
  * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
@@ -41,6 +41,7 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
 /* Narrower desktop sidebar */
 
 @media screen and (min-width: 1024px) {
