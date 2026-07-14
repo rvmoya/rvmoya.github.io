@@ -335,3 +335,70 @@ a:focus {
   background-color: #ffffff !important;
   color: var(--rm-accent);
 }
+/* ---------------------------------------------------------
+   Compact page spacing
+   --------------------------------------------------------- */
+
+#main {
+  margin-top: 1.25rem;
+}
+
+.page__content h1 {
+  margin-bottom: 0.9rem;
+}
+
+.page__content h2 {
+  margin-top: 1.65rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.4rem;
+}
+
+.page__content h3 {
+  margin-top: 1.35rem;
+  margin-bottom: 0.55rem;
+}
+
+.page__content p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.page__content hr {
+  margin: 1.4rem 0;
+}
+
+.page__content .btn {
+  margin-top: 0.15rem;
+  margin-bottom: 0.2rem;
+}
+
+.author__avatar {
+  margin-bottom: 0.75rem;
+}
+
+.author__name {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.author__bio {
+  margin-bottom: 0.9rem;
+}
+
+.author__urls {
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+}
+@media screen and (min-width: 1024px) {
+  .page__content {
+    padding-top: 0;
+  }
+
+  .page__content > h1:first-child {
+    margin-top: 0;
+  }
+
+  .sidebar {
+    padding-top: 0;
+  }
+}
