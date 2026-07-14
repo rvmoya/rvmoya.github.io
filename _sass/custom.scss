@@ -296,3 +296,28 @@ a:focus {
     text-align: center;
   }
 }
+
+/* Force a clean white navigation header override */
+
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .visible-links li,
+.greedy-nav .visible-links a {
+  background-color: #ffffff !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+.masthead__menu,
+.greedy-nav {
+  width: 100%;
+}
+
+.greedy-nav .visible-links a:hover,
+.greedy-nav .visible-links a:focus {
+  background-color: #ffffff !important;
+  color: var(--rm-accent);
+}
