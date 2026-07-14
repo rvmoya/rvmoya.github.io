@@ -339,55 +339,65 @@ a:focus {
    Compact page spacing
    --------------------------------------------------------- */
 
+/* Reduce space below the navigation */
 #main {
-  margin-top: 1.25rem;
+  margin-top: 1rem !important;
 }
 
-.page__content h1 {
-  margin-bottom: 0.9rem;
+/* Main page title: Rameses Moya */
+.page__title {
+  margin-top: 0 !important;
+  margin-bottom: 1.15rem !important;
 }
 
+/* Homepage section headings */
 .page__content h2 {
-  margin-top: 1.65rem;
-  margin-bottom: 0.75rem;
-  padding-bottom: 0.4rem;
+  margin-top: 1.5rem !important;
+  margin-bottom: 0.65rem !important;
+  padding-bottom: 0.35rem;
 }
 
+/* Smaller headings used on CV and other pages */
 .page__content h3 {
-  margin-top: 1.35rem;
-  margin-bottom: 0.55rem;
+  margin-top: 1.25rem !important;
+  margin-bottom: 0.45rem !important;
 }
 
+/* Paragraph rhythm */
 .page__content p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin-top: 0 !important;
+  margin-bottom: 0.85rem !important;
 }
 
+/* Horizontal separators */
 .page__content hr {
-  margin: 1.4rem 0;
+  margin: 1.2rem 0 !important;
 }
 
+/* Button group spacing */
 .page__content .btn {
-  margin-top: 0.15rem;
-  margin-bottom: 0.2rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
 }
 
+/* Sidebar spacing */
 .author__avatar {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.6rem !important;
 }
 
 .author__name {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-top: 0 !important;
+  margin-bottom: 0.35rem !important;
 }
 
 .author__bio {
-  margin-bottom: 0.9rem;
+  margin-top: 0 !important;
+  margin-bottom: 0.75rem !important;
 }
 
 .author__urls {
-  margin-top: 1rem;
-  padding-top: 0.9rem;
+  margin-top: 0.8rem !important;
+  padding-top: 0.75rem !important;
 }
 @media screen and (min-width: 1024px) {
   .page__content {
