@@ -307,9 +307,12 @@
 
   li {
     white-space: normal;
-    overflow-wrap: anywhere;
+    overflow-wrap: normal;
+    word-break: normal;
   }
-
+  .author__urls li a {
+    display: inline;
+  }
   a {
     display: block;
     margin-bottom: 5px;
