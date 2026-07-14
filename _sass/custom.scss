@@ -336,68 +336,68 @@ a:focus {
   color: var(--rm-accent);
 }
 /* ---------------------------------------------------------
-   Compact page spacing
+   Compact homepage spacing — visible test
    --------------------------------------------------------- */
 
-/* Reduce space below the navigation */
 #main {
-  margin-top: 1rem !important;
+  margin-top: 0.5rem !important;
 }
 
-/* Main page title: Rameses Moya */
 .page__title {
-  margin-top: 0 !important;
-  margin-bottom: 1.15rem !important;
+  margin: 0 0 0.4rem !important;
 }
 
-/* Homepage section headings */
-.page__content h2 {
-  margin-top: 1.5rem !important;
-  margin-bottom: 0.65rem !important;
+/* Field Application Engineer */
+.page__content > h2:first-of-type {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.45rem !important;
   padding-bottom: 0.35rem;
 }
 
-/* Smaller headings used on CV and other pages */
-.page__content h3 {
-  margin-top: 1.25rem !important;
+/* Specialty line */
+.page__content > h2:first-of-type + p {
+  margin-bottom: 0.8rem !important;
+}
+
+/* All homepage paragraphs */
+.page__content p {
+  margin-top: 0 !important;
+  margin-bottom: 0.65rem !important;
+}
+
+/* Separators */
+.page__content hr {
+  margin: 0.9rem 0 !important;
+}
+
+/* Engineering Profile and later headings */
+.page__content h2:not(:first-of-type) {
+  margin-top: 1rem !important;
   margin-bottom: 0.45rem !important;
 }
 
-/* Paragraph rhythm */
-.page__content p {
-  margin-top: 0 !important;
-  margin-bottom: 0.85rem !important;
-}
-
-/* Horizontal separators */
-.page__content hr {
-  margin: 1.2rem 0 !important;
-}
-
-/* Button group spacing */
+/* Buttons */
 .page__content .btn {
-  margin-top: 0.1rem;
-  margin-bottom: 0.1rem;
-}
-
-/* Sidebar spacing */
-.author__avatar {
-  margin-bottom: 0.6rem !important;
-}
-
-.author__name {
   margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Sidebar */
+.author__avatar {
   margin-bottom: 0.35rem !important;
 }
 
+.author__name {
+  margin: 0 0 0.2rem !important;
+}
+
 .author__bio {
-  margin-top: 0 !important;
-  margin-bottom: 0.75rem !important;
+  margin: 0 0 0.5rem !important;
 }
 
 .author__urls {
-  margin-top: 0.8rem !important;
-  padding-top: 0.75rem !important;
+  margin-top: 0.55rem !important;
+  padding-top: 0.55rem !important;
 }
 @media screen and (min-width: 1024px) {
   .page__content {
