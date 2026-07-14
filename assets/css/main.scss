@@ -41,27 +41,38 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-
-/* Narrower desktop sidebar */
+/* =========================================================
+   Desktop layout adjustment
+   ========================================================= */
 
 @media screen and (min-width: 1024px) {
-  .sidebar {
-    width: 15%;
-    max-width: 190px;
+  #main .sidebar {
+    width: 14%;
+    max-width: 180px;
+    padding-right: 0;
   }
 
-  .page {
+  #main .page {
+    float: right;
     width: 82%;
+    margin-left: 0;
+    margin-right: 0;
     padding-left: 2%;
-    padding-right: 2%;
+    padding-right: 0;
   }
 
-  .author__avatar img {
-    max-width: 155px;
+  #main .author__avatar {
+    width: 145px;
   }
 
-  .author__bio,
-  .author__urls {
+  #main .author__avatar img {
+    width: 145px;
+    max-width: 145px;
+  }
+
+  #main .author__bio,
+  #main .author__urls {
     font-size: 0.85rem;
+    line-height: 1.45;
   }
 }
