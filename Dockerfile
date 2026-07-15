@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /usr/src/app
 
 # Copy Gemfile and Gemfile.lock into the container BEFORE creating user
-COPY Gemfile Gemfile.lock ./
+COPY Gemfile ./
 
 # Install bundler and dependencies as root
 RUN gem install connection_pool:2.5.0 && \
