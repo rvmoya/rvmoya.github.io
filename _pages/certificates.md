@@ -4,7 +4,6 @@ permalink: /certificates/
 author_profile: true
 ---
 
-# Certificates
 
 This section is currently being prepared.
 
