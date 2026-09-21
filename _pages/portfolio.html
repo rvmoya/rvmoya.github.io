@@ -5,6 +5,128 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-This section is currently being prepared.
+<section class="rm-project-intro">
+  <p>
+    Projects I have worked on and am currently working on will be added here
+    as I continue building out this portfolio. In the meantime, here are a few
+    small interactive tools and widgets you can try.
+  </p>
 
-Projects related to industrial automation, machine vision, programming, engineering and professional development will be added here.
+  <h2>Small Widgets</h2>
+
+  <p class="rm-project-eyebrow">Interactive utility</p>
+  <h3>Workweek Calculator</h3>
+  <p>
+    Track weekly working hours, unpaid breaks, remaining hours, and projected
+    clock-out times directly in the browser.
+  </p>
+</section>
+
+<div class="rm-wwc" data-workweek-calculator>
+  <div class="rm-wwc__top">
+    <div>
+      <div class="rm-wwc__title">Weekly hours</div>
+      <div class="rm-wwc__subtitle">Enter clock-in, clock-out, and unpaid break durations.</div>
+    </div>
+
+    <label class="rm-wwc__target">
+      <span>Weekly target</span>
+      <input
+        type="text"
+        value="40:00"
+        inputmode="numeric"
+        pattern="[0-9]{1,3}:[0-5][0-9]"
+        aria-label="Weekly target in hours and minutes"
+        data-weekly-target
+      >
+      <small>HH:MM</small>
+    </label>
+  </div>
+
+  <div class="rm-wwc__table-wrap">
+    <table class="rm-wwc__table">
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Clock in</th>
+          <th>Clock out</th>
+          <th>Break</th>
+          <th>Worked</th>
+          <th>Suggested leave</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr data-day-row>
+          <td class="rm-wwc__day" data-day-label>Monday</td>
+          <td><input type="time" step="60" aria-label="Monday clock in" data-clock-in></td>
+          <td><input type="time" step="60" aria-label="Monday clock out" data-clock-out></td>
+          <td><input type="time" step="60" value="00:30" aria-label="Monday unpaid break" data-break></td>
+          <td class="rm-wwc__result" data-worked>—</td>
+          <td class="rm-wwc__result" data-suggested-leave>—</td>
+        </tr>
+        <tr data-day-row>
+          <td class="rm-wwc__day" data-day-label>Tuesday</td>
+          <td><input type="time" step="60" aria-label="Tuesday clock in" data-clock-in></td>
+          <td><input type="time" step="60" aria-label="Tuesday clock out" data-clock-out></td>
+          <td><input type="time" step="60" value="00:30" aria-label="Tuesday unpaid break" data-break></td>
+          <td class="rm-wwc__result" data-worked>—</td>
+          <td class="rm-wwc__result" data-suggested-leave>—</td>
+        </tr>
+        <tr data-day-row>
+          <td class="rm-wwc__day" data-day-label>Wednesday</td>
+          <td><input type="time" step="60" aria-label="Wednesday clock in" data-clock-in></td>
+          <td><input type="time" step="60" aria-label="Wednesday clock out" data-clock-out></td>
+          <td><input type="time" step="60" value="00:30" aria-label="Wednesday unpaid break" data-break></td>
+          <td class="rm-wwc__result" data-worked>—</td>
+          <td class="rm-wwc__result" data-suggested-leave>—</td>
+        </tr>
+        <tr data-day-row>
+          <td class="rm-wwc__day" data-day-label>Thursday</td>
+          <td><input type="time" step="60" aria-label="Thursday clock in" data-clock-in></td>
+          <td><input type="time" step="60" aria-label="Thursday clock out" data-clock-out></td>
+          <td><input type="time" step="60" value="00:30" aria-label="Thursday unpaid break" data-break></td>
+          <td class="rm-wwc__result" data-worked>—</td>
+          <td class="rm-wwc__result" data-suggested-leave>—</td>
+        </tr>
+        <tr data-day-row>
+          <td class="rm-wwc__day" data-day-label>Friday</td>
+          <td><input type="time" step="60" aria-label="Friday clock in" data-clock-in></td>
+          <td><input type="time" step="60" aria-label="Friday clock out" data-clock-out></td>
+          <td><input type="time" step="60" value="00:00" aria-label="Friday unpaid break" data-break></td>
+          <td class="rm-wwc__result" data-worked>—</td>
+          <td class="rm-wwc__result" data-suggested-leave>—</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="rm-wwc__summary">
+    <div class="rm-wwc__stat">
+      <span>Worked so far</span>
+      <strong data-total-worked>00:00</strong>
+    </div>
+    <div class="rm-wwc__stat">
+      <span>Remaining</span>
+      <strong data-remaining>40:00</strong>
+    </div>
+    <div class="rm-wwc__stat">
+      <span>Unfinished days</span>
+      <strong data-unfinished>5</strong>
+    </div>
+    <div class="rm-wwc__stat">
+      <span>Avg. needed / unfinished day</span>
+      <strong data-average-required>08:00</strong>
+    </div>
+  </div>
+
+  <div class="rm-wwc__actions">
+    <button type="button" class="rm-wwc__button rm-wwc__button--primary" data-recalculate>Recalculate</button>
+    <button type="button" class="rm-wwc__button" data-reset>Clear / Reset</button>
+  </div>
+
+  <p class="rm-wwc__note">
+    Breaks use <strong>HH:MM</strong> duration format. Monday–Thursday default to 00:30; Friday defaults to 00:00.
+  </p>
+</div>
+
+<script src="{{ '/assets/js/workweek-calculator.js' | relative_url }}"></script>
